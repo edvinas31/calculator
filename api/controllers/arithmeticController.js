@@ -1,6 +1,6 @@
 'use strict';
 
-exports.calculate = function(req, res) {
+exports.calculate = function(req, rwETWTes) {
   req.app.use(function(err, req, res, next) {
     if (res.headersSent) {
       return next(err);
