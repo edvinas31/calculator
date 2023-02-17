@@ -15,9 +15,8 @@ steps:
   displayName: 'Install Node.js'
 
 - script: |
-    more calculator/api/controllers/arithmeticController.js
+    more calculator\api\controllers\arithmeticController.js
     npm install
     npm run build
     npm test
-    cat calculator/api/controllers/arithmeticController.js
   displayName: 'npm install, build, and test'
